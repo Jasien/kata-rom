@@ -1,0 +1,30 @@
+/* Déclaration de la police */
+@font-face {
+font-family: "roman_font_7";
+src: url('roman_font_7.ttf');
+}
+/* Styles pour la page */
+body{
+	height:100%;
+	font-family:roman_font_7, sans-serif;
+	background-image:url("../img/fond-page.jpg");
+	text-align:center;
+	margin-top: 30vh;
+}
+
+header{
+	 margin:10px;
+	 font-size:25px;
+	 font-weight:bold;
+}
+div.corps{
+	padding-top:20px;
+	 margin:10px;
+	 height:50%;
+}
+#convert1, #convert2{
+	font-family:roman_font_7, sans-serif;
+}
+#result{
+	width:270px;
+}
